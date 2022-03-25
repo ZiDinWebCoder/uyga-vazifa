@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav li
+{
+    text-transform: uppercase;
+}
+
+.nav-logo
+{
+    display: flex;
+    
+}
+
+
+.img-body 
+{
+    background-image: url(./../img/image\ body.svg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.text
+{
+    padding-left: 100px;
+
+}
+
+.text p span
+{
+    color: #2AC588;
+    width: 50%;
+    border-bottom: 4px solid #2AC588;
+
+  
+}
+
+.text p:nth-child(1)
+{
+    margin: 0;
+
+    padding-top: 150px;
+    font-family: sans-serif;
+    font-size: 40pt;
+}
+
+.text p:nth-child(2){
+    font-size: 40pt ;
+    font-weight: 500;
+}
+.text p:nth-child(3)
+{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.buttons .btn p, .btn1 p 
+{
+    font-size: 10pt !important;
+    margin-bottom: 0;
+}
+
+ .buttons .btn
+{
+    margin-top: 15px;
+    color: white;
+    font-weight: 100 !important;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    background-color:  #F55F39;
+    box-shadow: 5px 5px 10px #252322
+    
+}
+
+.buttons .btn:hover
+{
+    background: #f1461b;
+    box-shadow: 2px 2px 5px #252322;
+    transition: 0.3s;
+}
+
+.buttons .btn:nth-child(2)
+ {
+    background-color: white;
+    color: black;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+}
+.buttons .btn:nth-child(2):hover
+{
+    background-color: rgb(226, 226, 226);
+    transition: 0.3s;
+}
+
+
+/*=============================== pastkidiv boshlanishi========================= */
+
+
+.pastkidiv
+{
+    
+}
+
+.textbox
+{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.textbox form
+{
+    width: 40%;
+   margin-left: 30%;
+   margin-top: 50px;
+
+}
+
+.button2:hover
+{
+    
+    background-color: #04ee3f;
+}
+
+.textbox p
+{
+    font-size: 24px ;
+    margin: 0;
+}
+
+.textbox h3{
+    font-size: 52px;
+    color: #444444;
+}
+
+.cardlar
+{
+    display: flex;
+    justify-content: center;
+    padding: 15px 50px;
+    margin-top: 10px;
+    border-radius: none;
+}
+
+.cardlar .card{
+    margin-top: 30px;
+    padding: 15px 25px;
+    position: relative;
+    border-radius: 0;
+    overflow: scroll;
+
+}
+
+
+.ve-all
+{
+    background-color: #EEF1F6;
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgba(150, 149, 149, 0.61);
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.ve-all:hover
+{
+    background-color: #a1a1a1;
+    transition: 0.3s;
+}
